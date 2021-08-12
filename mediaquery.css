@@ -1,0 +1,275 @@
+/* Smartphone */
+
+@media screen and (max-width: 576px)
+{
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Raleway';
+}
+
+.form_text{
+    width: 70%;
+}
+
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.header_intro{
+    margin-bottom: 3rem;
+}
+
+.header_intro h2{
+    margin-bottom: 3%;
+}
+
+.container_filtres{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filtres_button{
+    margin: 1rem 0;
+    
+}
+
+.info{
+    width: 100%;
+}
+
+.info p{
+    font-size: 1.5rem;
+}
+
+.info_icon{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    border: 1px solid #F2F2F2;
+    padding: 5px;
+    margin-right: 1.5%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container_heber{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    border-radius: 0;
+}
+
+.card_heber{
+    width: 95%;
+}
+
+.container_pop{
+    order: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 0;
+}
+
+
+.card_heber-footer{
+    margin-bottom: 8%;
+}
+
+.title_act{
+    padding-bottom: 8%;
+}
+
+.container_act{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.double{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.card_act{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 200px;
+    margin: 1rem 0 1rem;
+    
+}
+
+.card_act-double{
+    margin: 1.5rem 0 1.5rem;
+}
+
+.card_act img,
+.card_act-double img,
+.card_heber img,
+.card_pop img{
+    object-fit: cover;
+}
+
+footer{
+    background-color:  #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4rem;
+    padding: 3.7%;
+}
+
+.paragraph{
+    margin-top: 4rem;
+}
+
+.paragraph h3{
+    margin-bottom: 2rem;
+}
+
+}
+
+
+
+/* Tablet */
+
+
+@media screen and (min-width: 576px) and (max-width: 1200px)
+{
+    
+.form_text{
+    width: 70%;
+}
+
+.form_submit{
+    width: 30%;
+}
+
+.container_filtres{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.filtres_button{
+    margin: 1rem 1rem;
+    
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.info_icon{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    border: 1px solid #F2F2F2;
+    padding: 5px;
+    margin-right: 1.5%;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container_heber{
+    order: 2;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border-radius: 0;
+}
+
+.card_heber{
+    width: 31%;
+}
+
+.card_pop{
+    width: 44%;
+    margin: 0 1.5rem 2rem 1.5rem;
+}
+
+.container_pop{
+    order: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 0;
+}
+
+.card_pop-title{
+    margin: 3rem 0 0.5rem 0;
+}
+
+.card_heber-footer{
+    margin-bottom: 3rem;
+}
+
+.title_act{
+    padding: 2% 0 1% 0;
+}
+
+
+.card_act{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    margin: 1rem 0 1rem;
+}
+
+.double{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.card_act-double{
+    margin: 1.5rem 0 1.5rem;
+}
+
+.card_act img,
+.card_act-double img,
+.card_heber img,
+.card_pop img{
+    object-fit: cover;
+}
+
+footer{
+    background-color:  #F2F2F2;
+    display: flex;
+    padding-bottom: 4rem;
+}
+
+.paragraph{
+    margin-top: 2rem;
+    width: 30%;
+}
+
+.paragraph h3{
+    margin-bottom: 2rem;
+}
+
+}
