@@ -15,12 +15,39 @@
     width: 70%;
 }
 
-
-.nav{
-    display: flex;
-    flex-wrap: wrap;
+ul{
+    margin: 3rem 0;
 }
 
+ul a{
+    font-size: 1.5rem;
+}
+
+.up{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.down{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    border-bottom: 3px solid  #DCDCDC;
+}
+
+.down li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.down li:hover {
+    border-bottom: 3px solid #0065FC;
+    color: #0065FC;
+}
 
 .header_intro{
     margin-bottom: 3rem;
@@ -30,18 +57,32 @@
     margin-bottom: 3%;
 }
 
+.form_submit{
+    background-color: #0065FC;
+    width: 8%;
+    border-radius: 0 1.5rem 1.5rem 0;
+    border: #0065FC;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+
 .container_filtres{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+}
+
+.filtres_title{
+    width: 100%;
 }
 
 .filtres_button{
-    margin: 1rem 0;
-    
+    margin: 1rem 1rem;
 }
 
 .info{
-    width: 100%;
+    width: 95%;
 }
 
 .info p{
@@ -49,12 +90,15 @@
 }
 
 .info_icon{
-    height: 22px;
-    width: 22px;
+    font-size: 1.47rem;
+    text-align: center;
+    color: #0065FC;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
-    border: 1px solid #F2F2F2;
-    padding: 5px;
-    margin-right: 1.5%;
+    border: 1px solid  #DCDCDC;
+    padding: 4px;
+    margin-right: 1rem;
 }
 
 .main{
@@ -136,7 +180,7 @@ footer{
 }
 
 .paragraph{
-    margin-top: 4rem;
+    margin: 4rem 0 2rem;
 }
 
 .paragraph h3{
@@ -180,14 +224,16 @@ footer{
 }
 
 .info_icon{
-    height: 22px;
-    width: 22px;
+    font-size: 1.47rem;
+    text-align: center;
+    color: #0065FC;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
-    border: 1px solid #F2F2F2;
-    padding: 5px;
-    margin-right: 1.5%;
+    border: 1px solid  #DCDCDC;
+    padding: 4px;
+    margin-right: 1rem;
 }
-
 
 .main{
     display: flex;
@@ -237,7 +283,7 @@ footer{
     display: flex;
     flex-direction: column;
     width: 48%;
-    margin: 1rem 0 1rem;
+    justify-content: space-between;
 }
 
 .double{
@@ -246,16 +292,12 @@ footer{
     width: 48%;
 }
 
-.card_act-double{
-    margin: 1.5rem 0 1.5rem;
+.card_act-double2,
+.card_act-double1,
+.card_act{
+    margin-bottom: 2%;
 }
 
-.card_act img,
-.card_act-double img,
-.card_heber img,
-.card_pop img{
-    object-fit: cover;
-}
 
 footer{
     background-color:  #F2F2F2;
