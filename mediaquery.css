@@ -58,12 +58,18 @@ ul a{
 }
 
 .form_submit{
+    width: 0;
+    visibility: hidden;
+}
+
+.hidden{
     background-color: #0065FC;
-    width: 8%;
-    border-radius: 0 1.5rem 1.5rem 0;
-    border: #0065FC;
-    font-size: 15px;
-    font-weight: 700;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0 1.3rem 1.3rem 0;
+    padding: 1.3rem;
+    padding-left: 1rem;
+    visibility: visible;
     color: white;
 }
 
@@ -148,6 +154,7 @@ ul a{
 .double{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     width: 95%;
 }
 
@@ -157,7 +164,7 @@ ul a{
     width: 95%;
     height: 200px;
     margin: 1rem 0 1rem;
-    
+    padding-bottom: 4.5rem;
 }
 
 .card_act-double{
@@ -295,7 +302,7 @@ footer{
 .card_act-double2,
 .card_act-double1,
 .card_act{
-    margin-bottom: 2%;
+    margin-bottom: 2rem;
 }
 
 
