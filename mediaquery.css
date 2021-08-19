@@ -34,7 +34,6 @@ ul a{
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    border-bottom: 3px solid  #DCDCDC;
 }
 
 .down li{
@@ -42,6 +41,7 @@ ul a{
     align-items: center;
     justify-content: center;
     width: 50%;
+    border-bottom: 3px solid  #DCDCDC;
 }
 
 .down li:hover {
