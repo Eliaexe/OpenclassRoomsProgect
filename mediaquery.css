@@ -458,12 +458,14 @@ header{
 footer{
     background-color:  #F2F2F2;
     display: flex;
-    padding-bottom: 4rem;
+    padding: 0 3rem 4rem 3rem;
 }
 
 .paragraph{
     margin-top: 2rem;
-    width: 30%;
+    width: 33%;
+    margin-right: 5rem;
+
     padding: 0 3rem 4rem 3rem;
 }
 
